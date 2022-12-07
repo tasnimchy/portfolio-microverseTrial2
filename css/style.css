@@ -8,6 +8,10 @@
   display: flex;
   justify-content: flex-end;
   gap: 30px;
+  top: 0;
+  overflow: hidden;
+  position: sticky;
+
 }
 
 .nav-links {
@@ -22,7 +26,7 @@ a:hover {
 }
 
 #welcome-section {
-  height: 40vw;
+  height: 100vw;
   background-color: rgb(47, 46, 46);
   text-align: center;
   padding: 17%;
@@ -32,14 +36,18 @@ a:hover {
   font-size: 50px;
   color: white;
 }
-.projects {
+#welcome-section p {
+  font-size: 20px;
+  color: rgb(228, 222, 222);
+}
+#projects {
   text-align: center;
   padding: 30px;
   padding-top: 0;
   /* background-color: rgb(56, 58, 95); */
 }
 
-.projects h1 {
+#projects h1 {
   font-size: 50px;
   padding: 30px;
 }
@@ -65,7 +73,7 @@ a:hover {
   font-weight: 700;
 }
 
-.contact {
+#contact {
   height: 50px;
   background-color: rgb(47, 46, 46);
   color: white;
@@ -73,7 +81,7 @@ a:hover {
   padding: 17%;
 }
 
-.contact a {
+#contact a {
   text-decoration: none;
   background-color: red;
   color: blue;
@@ -83,7 +91,7 @@ a:hover {
   font-weight: 700;
 }
 
-.contact a:hover {
+#contact a:hover {
   background-color: navy;
   color: rgb(241, 232, 232);
 }
