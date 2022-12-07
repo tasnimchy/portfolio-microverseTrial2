@@ -32,13 +32,14 @@ a:hover {
   font-size: 50px;
   color: white;
 }
-.project-container{
+.projects{
     text-align: center;
     padding: 30px;
     padding-top: 0;
+    /* background-color: rgb(56, 58, 95); */
 }
 
-.project-container h1{
+.projects h1{
     font-size: 50px;
     padding: 30px;
 }
@@ -51,6 +52,7 @@ a:hover {
 .card {
   border: 2px solid rgb(43, 43, 43);
   background-color: gray;
+  border-radius: 5px;
   padding: 2px;
 }
 .card img {
@@ -62,4 +64,27 @@ a:hover {
     color: white;
     font-size: 20px;
     font-weight: 700;
+}
+
+.contact{
+  height: 50px;
+  background-color: rgb(47, 46, 46);
+  color: white;
+  text-align: center;
+  padding: 17%;
+}
+
+.contact a{
+    text-decoration: none;
+    background-color: red;
+    color: blue;
+    padding: 10px;
+    border: 2px solid rgb(62, 61, 61);
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.contact a:hover{
+    background-color: navy;
+    color: rgb(241, 232, 232);
 }
