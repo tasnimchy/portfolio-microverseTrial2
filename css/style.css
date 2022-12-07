@@ -1,34 +1,65 @@
-*{
-    font-family: sans-serif;
+* {
+  font-family: sans-serif;
 }
 
-#navbar{
-    background-color: brown;
-    padding: 40px;
-    display: flex;
-    justify-content:flex-end;
-    gap: 30px;
+#navbar {
+  background-color: brown;
+  padding: 40px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
 }
 
-.nav-links{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
+.nav-links {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 a:hover {
-    color: cyan;
+  color: cyan;
 }
 
-#welcome-section{
-    height: 100vw;
-    background-color: rgb(47, 46, 46);
+#welcome-section {
+  height: 40vw;
+  background-color: rgb(47, 46, 46);
+  text-align: center;
+  padding: 17%;
+}
+
+#welcome-section h1 {
+  font-size: 50px;
+  color: white;
+}
+.project-container{
     text-align: center;
-    padding: 15%;
+    padding: 30px;
+    padding-top: 0;
 }
 
-#welcome-section h1{
+.project-container h1{
     font-size: 50px;
+    padding: 30px;
+}
+.card-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+
+}
+.card {
+  border: 2px solid rgb(43, 43, 43);
+  background-color: gray;
+  padding: 2px;
+}
+.card img {
+  width: 300px;
+  height: 350px;
+}
+
+.project-title{
     color: white;
+    font-size: 20px;
+    font-weight: 700;
 }
